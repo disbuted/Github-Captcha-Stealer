@@ -8,40 +8,49 @@ This repository is an **archive** of the _Github-Captcha-Stealer_ project. It co
 
 ## **Project Overview**
 
-**Github-Captcha-Stealer** was designed as a **CAPTCHA Website** aimed at deceiving users into thinking they were solving a CAPTCHA challenge. Behind the scenes, the website would stealthily deploy an **infostealer** malware onto the target's system. 
+**Github-Captcha-Stealer** was devised as a CAPTCHA Website intending to lead users to believe they were solving a CAPTCHA challenge. However, the website was actually stealthily deploying an infostealer virus to the user's computer without their knowledge.
 
-The **Lumma Stealer** malware, once deployed, is a paid malware-for-hire service that allows malicious actors to extract a wide variety of sensitive data from compromised systems, including:
+The **Lumma Stealer** malware, after installation, is a service that allows cybercriminals to steal a large list of sensitive information from compromised systems such as:
 
-- **Login credentials** from web browsers, FTP clients, and email clients
-- **Browser-stored passwords** and autofill data
-- **Cookies** and session tokens, enabling account hijacking
-- **Cryptocurrency wallets** and private keys
-- **System information** such as IP address, operating system details, and hardware info
-- **Clipboard data**, including copied passwords, addresses, and other sensitive info
-- **Telegram sessions**, allowing access to conversations and accounts
+- **Login credentials** of web browsers, FTP clients, and email clients
 
-Lumma Stealer is often sold on dark web marketplaces as a "malware-as-a-service" platform, providing regular updates, support, and customization options to cybercriminals.
+- **Stored passwords** on the browser and autofill data
+
+- **Session tokens** and cookies, account hijacking will be enabled
+
+- **Private keys** and crypto wallets
+
+- **IP address**, operating system details, and hardware info are part of the System information
+
+- **Clipboard data**, if you had copied passwords, addresses, and other sensitive info
+
+- **Telegram sessions**, they will allow you to get into conversations and accounts
+
+Lumma Stealer is usually found on dark web marketplaces with the name "malware-as-a-service" which is a platform providing regular updates, support, and customization options for cybercriminals.
 
 ---
 
 ## **Features**
 
-- **Fake CAPTCHA**: Mimics real CAPTCHA functionality to appear legitimate.
-- **Stealthy Infostealer**: Downloads and executes malware without raising suspicion.
-- **Persistence**: The infostealer was designed to remain active on the target's system even after reboots.
+- **Fake CAPTCHA**: A system that imitates real CAPTCHA algorithms in order to be accepted by users.
+
+- **Stealthy Infostealer**: Hides the installation and execution of malware behind the rules of a game.
+
+- **Persistence**: The infogetter was made to keep on the targeted machine no matter how many system reboots are performed.
 
 ---
 
 ## **Disclaimer**
 
-This repository is intended for **educational purposes only**. The use of this code for any **malicious activity** is strictly prohibited. The authors and maintainers of this repository do not endorse or condone any illegal use of the software.
+This repository is exclusively for the purpose of **education**. The use of this code for any **malicious activity** is strictly prohibited. The authors and maintainers of this repository do not endorse or condone any illegal use of the software.
 
 ---
 
 ### **Contents of this Repository**
 
 - `index.html` - The main page with the fake CAPTCHA form.
-- `download.txt` - The original link to the payload that was hidden within the script that was executed **DO NOT RUN THE CODE WITHIN THE .TXT, IT IS AN UNTAMPERED COPY OF THE ORIGINAL CODE FROM THE WEBSITE**
+
+- `download.txt` - A URL that was embedded in the script of the executed code. **DO NOT RUN THE CODE WITHIN THE .TXT, IT IS AN UNTAMPERED COPY OF THE ORIGINAL CODE FROM THE WEBSITE**
 
 ---
 
